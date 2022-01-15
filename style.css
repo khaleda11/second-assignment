@@ -67,7 +67,7 @@ nav a{
       border-radius:25px ;
      
 }
-.fa{
+.link-btn .fa{
     padding-left: 10px;
 }
 
@@ -91,6 +91,81 @@ nav a{
 #camera :hover img{
     transform: scale(1.5);
 }
+
+    /* ---------------logo section ----------- */
+  
+.logo-section{
+
+    height: 80px;
+    width: 800px;
+    border-top:1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA ;
+    margin-left: 15%;
+        
+   
+}
+
+
+.logo img{
+      width: 13%;
+      padding: 25px;
+    
+}
+
+   
+    /*------------- popular section------------  */
+
+.popular-section{
+   
+    width: 1000px;
+    margin-top:5% ;
+    margin-left: 6%;
+   
+    
+   
+}
+
+ .title{
+     text-align: center;
+     font-size: 30px;
+ }
+.products-details{
+    margin: 3%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    
+}
+.product{
+   
+   background: white;
+   border: 5px solid whitesmoke;
+   box-shadow: 15px 10px 10px grey ;
+       
+
+}
+.product img{
+     width: 100%;
+     padding: 10%;
+}
+.text{
+   margin-top: -20%;
+   padding: 10%;
+  
+}
+.price {
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+.text .fa{
+    color: tomato;
+} 
+
+.point{
+     padding-left: 10px;
+} 
+
 
 
 
